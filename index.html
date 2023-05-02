@@ -3,32 +3,71 @@
   <head>
     <title>My Blog</title>
     <style>
+      /* Body styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Header styles */
+      header {
+        background-color: #3a3a3a;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
       /* Blog post styles */
       .post {
         margin-bottom: 30px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
       }
       
       .post-title {
-        font-size: 24px;
+        font-size: 28px;
         font-weight: bold;
         margin-bottom: 10px;
       }
       
       .post-content {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.5;
+      }
+      
+      /* Link styles */
+      a {
+        color: #3a3a3a;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #333;
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h1>My Blog</h1>
+    </header>
+    
     <div class="post">
-      <h2 class="post-title">My First Blog Post</h2>
-      <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum massa id enim pellentesque tempus. Aliquam id justo eu nunc feugiat volutpat. Nam aliquet mi nec eros posuere, sit amet mollis arcu suscipit. Duis id justo eget ex pellentesque posuere.</p>
+      <h2 class="post-title">자기소개</h2>
+      <p class="post-content">안녕하세요, 제 이름은 나시윤이고 한동대학교에 다니고 있는 대학생 입니다. 전공은 컴퓨터공학을 전공 중입니다.</p>
+      <p><a href="#">Read more...</a></p>
     </div>
     
     <div class="post">
-      <h2 class="post-title">My Second Blog Post</h2>
-      <p class="post-content">Vivamus posuere massa sit amet ex blandit, a malesuada urna bibendum. Morbi ullamcorper augue id ligula lobortis, vel laoreet mauris posuere. Praesent volutpat eleifend tellus, eget hendrerit magna suscipit vel. Sed rhoncus urna id lorem pellentesque dictum.</p>
+      <h2 class="post-title">한동대학교를 소개합니다</h2>
+      <p class="post-content">한동대학교는 포항에 위치한 대학교입니다.</p>
+      <p><a href="#">Read more...</a></p>
     </div>
   </body>
 </html>
